@@ -4,7 +4,8 @@ import Form from "./Form";
 
 const App = () => {
   const handleSubmit = (values) => {
-    console.log("Form values:", values);
+    console.log("Form values submitted:", values);
+    // Here, you can perform any additional actions like sending the data to a server
   };
 
   const fields = [
